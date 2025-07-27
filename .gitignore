@@ -1,0 +1,57 @@
+# === Global ===
+*.log
+*.env
+.env.*
+.DS_Store
+*.pyc
+__pycache__/
+*.sqlite3
+
+# === Node / Next.js Frontend ===
+node_modules/
+.next/
+out/
+dist/
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vscode/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Next.js static exports
+*.local
+
+# Optional: ignore front-end build directory if different
+frontend/build/
+frontend/.next/
+
+# === Python / Flask Backend ===
+venv/
+.env
+instance/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+migrations/
+
+# If using pipenv or poetry
+Pipfile.lock
+poetry.lock
+
+# Flask cache and logs
+flask_session/
+*.log
+
+# === OS and Editor Junk ===
+*.swp
+*~
+.idea/
+.vscode/
+Thumbs.db
+ehthumbs.db
